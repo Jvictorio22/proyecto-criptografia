@@ -12,5 +12,6 @@ def test_histogram():
     plt.title("Histograma de bytes del archivo cifrado")
     plt.xlabel("Byte 0-255")
     plt.ylabel("Frecuencia")
+
     plt.savefig("histograma_cifrado.png")
 
